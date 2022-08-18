@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+* {
+ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-container{
+  width: 100%;
+  max-width: 1400px;
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(255, 0, 0, 0.34),
+      rgba(0, 0, 0, 0.34),
+      rgba(255, 255, 255, 0.34)
+    ),
+    url(../public/images/mecedes.jpg)top no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+    /* color: rgba(235, 251, 255, 0.596);
+    color: rgba(255, 255, 255, 0.616);
+    color: rgba(0, 51, 51, 0.478); */
+  }
+
+  .productDisplay {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
